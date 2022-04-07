@@ -73,7 +73,7 @@ bool get temPerguntaSelecionada {
         appBar: AppBar(
           title: const Text('Perguntas'),
         ),
-        body: temPerguntaSelecionada
+        body: temPerguntaSelecionada?? false
         ? Questionario(
           perguntas: _perguntas, 
           perguntaSelecionada: _perguntaSelecionada, 
