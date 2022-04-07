@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Resultado extends StatelessWidget {
@@ -16,7 +15,7 @@ class Resultado extends StatelessWidget {
     } else if (pontuacao < 16) {
       return 'Impressionante!';
     } else {
-      return 'Nível Jedi!';
+      return 'Nível Hard';
     }
   }
 

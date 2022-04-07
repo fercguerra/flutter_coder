@@ -42,8 +42,8 @@ class _PerguntaAppState extends State<PerguntaApp> {
     {
       'texto': 'Qual é o seu instrutor favorito?',
       'respostas': [
-        {'texto': 'Leo', 'pontuacao': 10},
-        {'texto': 'Maria', 'pontuacao': 5},
+        {'texto': 'Vitor', 'pontuacao': 10},
+        {'texto': 'Fernanda', 'pontuacao': 5},
         {'texto': 'João', 'pontuacao': 3},
         {'texto': 'Pedro', 'pontuacao': 1},
       ],
@@ -73,8 +73,10 @@ class _PerguntaAppState extends State<PerguntaApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.purple[300],
           title: const Text('Perguntas'),
         ),
         body: temPerguntaSelecionada
