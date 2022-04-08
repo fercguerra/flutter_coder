@@ -76,8 +76,10 @@ class _PerguntaAppState extends State<PerguntaApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+
           backgroundColor: Colors.purple[300],
           title: const Text('Perguntas'),
+          
         ),
         body: temPerguntaSelecionada
             ? Questionario(
