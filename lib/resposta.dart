@@ -10,7 +10,7 @@ class Resposta extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(10.0),
+      padding: const EdgeInsets.all(10.0),
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
